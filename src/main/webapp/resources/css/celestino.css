@@ -1,0 +1,12 @@
+.botao{
+	background:    #ff0000;
+	background:    -webkit-linear-gradient(#ff0000, #660000);
+	background:    linear-gradient(#ff0000, #660000);
+	border-radius: 5px;
+	padding:       8px 20px;
+	color:         #ffffff;
+	display:       inline-block;
+	font:          normal 700 20px/1 "Ubuntu", sans-serif;
+	text-align:    center;
+	text-shadow:   none;
+}

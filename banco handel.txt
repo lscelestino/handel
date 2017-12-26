@@ -1,0 +1,36 @@
+create table handel.products (
+id integer not null AUTO_INCREMENT,
+code varchar(255) not null,
+description varchar(255) not null,
+quantity integer not null, 
+price double not null,
+imagePath varchar(255),
+primary key (id));
+
+select * from sql12183730.products;
+
+insert into sql12183730.products values (1, 'A1230', 'Camiseta Mickey Mouse', 2, 19.90);
+
+create table handel.sales (
+id integer not null,
+startDate DATETIME NOT NULL,
+endDate DATETIME,
+status integer NOT NULL,
+totalAmount double,
+discount double,
+received double,
+change  double,
+paymentMethod integer,
+primary key (id));
+
+create table handel.items (
+id integer not null AUTO_INCREMENT,
+saleId integer not null,
+productId integer not null,
+quantity integer not null,
+number integer not null,
+unitPrice double not null,
+status integer not null,
+primary key (id),
+foreign key (saleId) REFERENCES handel.sales(id),
+foreign key (productId) REFERENCES handel.products(id));

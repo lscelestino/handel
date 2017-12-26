@@ -1,0 +1,96 @@
+.navbar {
+	overflow: hidden;
+	background-color: #333333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border-radius: 0 !important;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 18px 30px 10px 30px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.page-content {
+	padding: 30px;
+	margin-top: 80px;
+}
+
+.logotipo {
+	float: left;
+}
+
+.menu-items {
+	float: right;
+}
+
+.menu-items ul {
+	list-style-type: none;
+	margin: 0;
+	margin-top: 0px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+}
+
+.menu-items li {
+	float: left;
+}
+
+.menu-items li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 25px;
+	text-decoration: none;
+}
+
+.menu-items li a:hover {
+	color: #ff0080;
+}
+
+.orange {
+	color: #FF8800;
+}
+
+.blue {
+	color: #0088FF;
+}
+
+.green {
+	color: #88FF00;
+}
+
+.dark-green {
+	color: #44BB00;
+}
+
+.red {
+	color: #FF3300;
+}
+
+.action-buttons {
+	position: relative;
+}
+
+.action-buttons>a {
+	text-decoration: none;
+}
+
+.action-buttons a+a {
+	text-decoration: none;
+	bottom: 0;
+	margin-left: 50px;
+}
+
+.errorFont {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}

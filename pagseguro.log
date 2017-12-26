@@ -1,0 +1,82 @@
+05/07/2017 20:47:23 PagSeguro.br.com.uol.pagseguro.api.credential.DefaultCredentialProviderChain[INFO]: Iniciando leitura das credenciais
+05/07/2017 20:47:23 PagSeguro.br.com.uol.pagseguro.api.credential.JVMEnvVariableCredentialProvider[INFO]: Lendo credenciais
+05/07/2017 20:47:23 PagSeguro.br.com.uol.pagseguro.api.credential.SystemPropCredentialProvider[INFO]: Lendo credenciais
+05/07/2017 20:47:23 PagSeguro.br.com.uol.pagseguro.api.credential.SystemPropCredentialProvider[INFO]: Credenciais lidas
+05/07/2017 20:47:23 PagSeguro.br.com.uol.pagseguro.api.environment.DefaultEnvironmentProviderChain[INFO]: Iniciando leitura das configuracoes de ambiente
+05/07/2017 20:47:25 PagSeguro.br.com.uol.pagseguro.api.environment.JVMEnvVariableEnvironmentProvider[INFO]: Lendo configuracoes de ambiente
+05/07/2017 20:47:25 PagSeguro.br.com.uol.pagseguro.api.environment.SystemPropEnvironmentProvider[INFO]: Lendo configuracoes de ambiente
+05/07/2017 20:47:25 PagSeguro.br.com.uol.pagseguro.api.environment.SystemPropEnvironmentProvider[INFO]: Configuracoes de ambiente lidas
+05/07/2017 20:47:25 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Iniciando checkout
+05/07/2017 20:47:25 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Convertendo valores
+05/07/2017 20:47:25 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Valores convertidos
+05/07/2017 20:47:25 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[FINE]: Parametros: RequestMap{map={itemId1=0001, itemQuantity1=1, senderName=Jose Comprador, senderEmail=comprador@uol.com.br, itemDescription1=Produto PagSeguroI, currency=BRL, itemAmount1=19.90}}
+05/07/2017 20:47:25 PagSeguro.br.com.uol.pagseguro.api.http.AuthenticatedHttpClient[INFO]: Correlation Id: 32b65aab-3df7-4902-bd67-45085f26fcbf
+05/07/2017 20:47:25 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Executando [POST] em [https://ws.sandbox.pagseguro.uol.com.br/v2/checkout?email=rebalancing.teste@gmail.com&token=3B0B0228B48F40B6B40AB3C13FB97F40&correlationId=32b65aab-3df7-4902-bd67-45085f26fcbf]
+05/07/2017 20:47:25 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Abrindo conexao
+05/07/2017 20:47:25 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Escrevendo body
+05/07/2017 20:47:34 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Lendo resposta
+05/07/2017 20:47:34 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Fechando conexao
+05/07/2017 20:47:34 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[FINE]: Resposta: HttpResponse{responseAsString='<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><checkout><code>D92C8B78E8E8E1899449FFA12A27F0CC</code><date>2017-07-05T20:47:34.000-03:00</date></checkout>', status=200}
+05/07/2017 20:47:34 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Parseando XML de resposta
+05/07/2017 20:47:34 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Parseamento finalizado
+05/07/2017 20:47:34 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Checkout finalizado
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.credential.DefaultCredentialProviderChain[INFO]: Iniciando leitura das credenciais
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.credential.JVMEnvVariableCredentialProvider[INFO]: Lendo credenciais
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.credential.SystemPropCredentialProvider[INFO]: Lendo credenciais
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.credential.SystemPropCredentialProvider[INFO]: Credenciais lidas
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.environment.DefaultEnvironmentProviderChain[INFO]: Iniciando leitura das configuracoes de ambiente
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.environment.JVMEnvVariableEnvironmentProvider[INFO]: Lendo configuracoes de ambiente
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.environment.SystemPropEnvironmentProvider[INFO]: Lendo configuracoes de ambiente
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.environment.SystemPropEnvironmentProvider[INFO]: Configuracoes de ambiente lidas
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Iniciando checkout
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Convertendo valores
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Valores convertidos
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[FINE]: Parametros: RequestMap{map={itemId1=0001, itemQuantity1=1, senderName=Jose Comprador, senderEmail=comprador@uol.com.br, itemDescription1=Produto PagSeguroI, currency=BRL, itemAmount1=99.90}}
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.http.AuthenticatedHttpClient[INFO]: Correlation Id: cb60defc-3d0d-4ee1-bd30-d8896a922f47
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Executando [POST] em [https://ws.sandbox.pagseguro.uol.com.br/v2/checkout?email=rebalancing.teste@gmail.com&token=3B0B0228B48F40B6B40AB3C13FB97F40&correlationId=cb60defc-3d0d-4ee1-bd30-d8896a922f47]
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Abrindo conexao
+05/07/2017 20:47:35 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Escrevendo body
+05/07/2017 20:47:43 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Lendo resposta
+05/07/2017 20:47:43 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Fechando conexao
+05/07/2017 20:47:43 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[FINE]: Resposta: HttpResponse{responseAsString='<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><checkout><code>FF2C3E267272FED334B58F9A4CE8CCB0</code><date>2017-07-05T20:47:44.000-03:00</date></checkout>', status=200}
+05/07/2017 20:47:43 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Parseando XML de resposta
+05/07/2017 20:47:43 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Parseamento finalizado
+05/07/2017 20:47:43 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Checkout finalizado
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.credential.DefaultCredentialProviderChain[INFO]: Iniciando leitura das credenciais
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.credential.JVMEnvVariableCredentialProvider[INFO]: Lendo credenciais
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.credential.SystemPropCredentialProvider[INFO]: Lendo credenciais
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.credential.SystemPropCredentialProvider[INFO]: Credenciais lidas
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.environment.DefaultEnvironmentProviderChain[INFO]: Iniciando leitura das configuracoes de ambiente
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.environment.JVMEnvVariableEnvironmentProvider[INFO]: Lendo configuracoes de ambiente
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.environment.SystemPropEnvironmentProvider[INFO]: Lendo configuracoes de ambiente
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.environment.SystemPropEnvironmentProvider[INFO]: Configuracoes de ambiente lidas
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Iniciando checkout
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Convertendo valores
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Valores convertidos
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[FINE]: Parametros: RequestMap{map={itemId1=0001, itemQuantity1=1, senderName=Jose Comprador, senderEmail=comprador@uol.com.br, itemDescription1=Produto PagSeguroI, currency=BRL, itemAmount1=159.90}}
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.http.AuthenticatedHttpClient[INFO]: Correlation Id: 61f54c6c-2d3f-4bef-a183-dd4e32eae2a8
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Executando [POST] em [https://ws.sandbox.pagseguro.uol.com.br/v2/checkout?email=rebalancing.teste@gmail.com&token=3B0B0228B48F40B6B40AB3C13FB97F40&correlationId=61f54c6c-2d3f-4bef-a183-dd4e32eae2a8]
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Abrindo conexao
+05/07/2017 20:47:45 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Escrevendo body
+05/07/2017 20:47:53 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Lendo resposta
+05/07/2017 20:47:53 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Fechando conexao
+05/07/2017 20:47:53 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[FINE]: Resposta: HttpResponse{responseAsString='<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><checkout><code>26285957C7C7B93AA4EC2FA13EC5389F</code><date>2017-07-05T20:47:53.000-03:00</date></checkout>', status=200}
+05/07/2017 20:47:53 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Parseando XML de resposta
+05/07/2017 20:47:53 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Parseamento finalizado
+05/07/2017 20:47:53 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Checkout finalizado
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.credential.DefaultCredentialProviderChain[INFO]: Iniciando leitura das credenciais
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.credential.JVMEnvVariableCredentialProvider[INFO]: Lendo credenciais
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.credential.SystemPropCredentialProvider[INFO]: Lendo credenciais
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.credential.SystemPropCredentialProvider[INFO]: Credenciais lidas
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.environment.DefaultEnvironmentProviderChain[INFO]: Iniciando leitura das configuracoes de ambiente
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.environment.JVMEnvVariableEnvironmentProvider[INFO]: Lendo configuracoes de ambiente
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.environment.SystemPropEnvironmentProvider[INFO]: Lendo configuracoes de ambiente
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.environment.SystemPropEnvironmentProvider[INFO]: Configuracoes de ambiente lidas
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Iniciando checkout
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Convertendo valores
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[INFO]: Valores convertidos
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.checkout.CheckoutsResource[FINE]: Parametros: RequestMap{map={itemId1=0001, itemQuantity1=1, senderName=Jose Comprador, senderEmail=comprador@uol.com.br, itemDescription1=Produto PagSeguroI, currency=BRL, itemAmount1=19.90}}
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.http.AuthenticatedHttpClient[INFO]: Correlation Id: 1483f294-84b5-4a2c-be84-339aee73ad8d
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Executando [POST] em [https://ws.sandbox.pagseguro.uol.com.br/v2/checkout?email=rebalancing.teste@gmail.com&token=3B0B0228B48F40B6B40AB3C13FB97F40&correlationId=1483f294-84b5-4a2c-be84-339aee73ad8d]
+05/07/2017 21:11:47 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Abrindo conexao
+05/07/2017 21:11:48 PagSeguro.br.com.uol.pagseguro.api.http.JSEHttpClient[INFO]: Escrevendo body

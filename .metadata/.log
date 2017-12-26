@@ -1,0 +1,121 @@
+!SESSION 2017-07-05 20:28:54.815 -----------------------------------------------
+eclipse.buildId=3.8.4.201703310825-RELEASE-e46
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springsource.sts.ide -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide -data D:\Graciele\Handel -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.ui 2 2 2017-07-05 20:29:42.732
+!MESSAGE org.eclipse.jdt.junit.ResultView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2017-07-05 20:29:42.738
+!MESSAGE org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2017-07-05 20:29:42.744
+!MESSAGE org.eclipse.contribution.xref.ui.views.XReferenceView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.jface.text 2 0 2017-07-05 20:29:46.576
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-07-05 20:29:46.602
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-07-05 20:29:51.403
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Luis Celestino'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.buildship.core 2 0 2017-07-05 20:33:42.121
+!MESSAGE Synchronize Gradle projects with workspace failed due to an unsupported configuration in the referenced Gradle build.
+!STACK 0
+org.eclipse.buildship.core.UnsupportedConfigurationException: Project at 'D:\Graciele\Handel' can't be named 'rebalancing' because it's located directly under the workspace root. If such a project is renamed, Eclipse would move the container directory. To resolve this problem, move the project out of the workspace root or configure it to have the name 'Handel'.
+	at org.eclipse.buildship.core.workspace.internal.DefaultWorkspaceOperations.validateProjectName(DefaultWorkspaceOperations.java:183)
+	at org.eclipse.buildship.core.workspace.internal.ProjectNameUpdater.checkProjectName(ProjectNameUpdater.java:107)
+	at org.eclipse.buildship.core.workspace.internal.ProjectNameUpdater.ensureProjectNameIsFree(ProjectNameUpdater.java:71)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.addExistingEclipseProjectToWorkspace(SynchronizeGradleBuildOperation.java:266)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.synchronizeNonWorkspaceProject(SynchronizeGradleBuildOperation.java:256)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.synchronizeGradleProjectWithWorkspaceProject(SynchronizeGradleBuildOperation.java:175)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.access$000(SynchronizeGradleBuildOperation.java:99)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation$1.run(SynchronizeGradleBuildOperation.java:134)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.synchronizeProjectsWithWorkspace(SynchronizeGradleBuildOperation.java:131)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.run(SynchronizeGradleBuildOperation.java:115)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildsJob.synchronizeBuild(SynchronizeGradleBuildsJob.java:81)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildsJob.runToolingApiJob(SynchronizeGradleBuildsJob.java:72)
+	at org.eclipse.buildship.core.util.progress.ToolingApiJob$1.run(ToolingApiJob.java:73)
+	at org.eclipse.buildship.core.util.progress.ToolingApiInvoker.invoke(ToolingApiInvoker.java:62)
+	at org.eclipse.buildship.core.util.progress.ToolingApiJob.run(ToolingApiJob.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.buildship.core 2 0 2017-07-05 20:37:22.157
+!MESSAGE Synchronize Gradle projects with workspace failed due to an unsupported configuration in the referenced Gradle build.
+!STACK 0
+org.eclipse.buildship.core.UnsupportedConfigurationException: Project at 'D:\Graciele\Handel' can't be named 'rebalancing' because it's located directly under the workspace root. If such a project is renamed, Eclipse would move the container directory. To resolve this problem, move the project out of the workspace root or configure it to have the name 'Handel'.
+	at org.eclipse.buildship.core.workspace.internal.DefaultWorkspaceOperations.validateProjectName(DefaultWorkspaceOperations.java:183)
+	at org.eclipse.buildship.core.workspace.internal.ProjectNameUpdater.checkProjectName(ProjectNameUpdater.java:107)
+	at org.eclipse.buildship.core.workspace.internal.ProjectNameUpdater.ensureProjectNameIsFree(ProjectNameUpdater.java:71)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.addExistingEclipseProjectToWorkspace(SynchronizeGradleBuildOperation.java:266)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.synchronizeNonWorkspaceProject(SynchronizeGradleBuildOperation.java:256)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.synchronizeGradleProjectWithWorkspaceProject(SynchronizeGradleBuildOperation.java:175)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.access$000(SynchronizeGradleBuildOperation.java:99)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation$1.run(SynchronizeGradleBuildOperation.java:134)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.synchronizeProjectsWithWorkspace(SynchronizeGradleBuildOperation.java:131)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.run(SynchronizeGradleBuildOperation.java:115)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildsJob.synchronizeBuild(SynchronizeGradleBuildsJob.java:81)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildsJob.runToolingApiJob(SynchronizeGradleBuildsJob.java:72)
+	at org.eclipse.buildship.core.util.progress.ToolingApiJob$1.run(ToolingApiJob.java:73)
+	at org.eclipse.buildship.core.util.progress.ToolingApiInvoker.invoke(ToolingApiInvoker.java:62)
+	at org.eclipse.buildship.core.util.progress.ToolingApiJob.run(ToolingApiJob.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.buildship.core 2 0 2017-07-05 20:38:20.486
+!MESSAGE Synchronize Gradle projects with workspace failed due to an unsupported configuration in the referenced Gradle build.
+!STACK 0
+org.eclipse.buildship.core.UnsupportedConfigurationException: Project at 'D:\Graciele\Handel' can't be named 'handel' because it's located directly under the workspace root. If such a project is renamed, Eclipse would move the container directory. To resolve this problem, move the project out of the workspace root or configure it to have the name 'Handel'.
+	at org.eclipse.buildship.core.workspace.internal.DefaultWorkspaceOperations.validateProjectName(DefaultWorkspaceOperations.java:183)
+	at org.eclipse.buildship.core.workspace.internal.ProjectNameUpdater.checkProjectName(ProjectNameUpdater.java:107)
+	at org.eclipse.buildship.core.workspace.internal.ProjectNameUpdater.ensureProjectNameIsFree(ProjectNameUpdater.java:71)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.addExistingEclipseProjectToWorkspace(SynchronizeGradleBuildOperation.java:266)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.synchronizeNonWorkspaceProject(SynchronizeGradleBuildOperation.java:256)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.synchronizeGradleProjectWithWorkspaceProject(SynchronizeGradleBuildOperation.java:175)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.access$000(SynchronizeGradleBuildOperation.java:99)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation$1.run(SynchronizeGradleBuildOperation.java:134)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.synchronizeProjectsWithWorkspace(SynchronizeGradleBuildOperation.java:131)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.run(SynchronizeGradleBuildOperation.java:115)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildsJob.synchronizeBuild(SynchronizeGradleBuildsJob.java:81)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildsJob.runToolingApiJob(SynchronizeGradleBuildsJob.java:72)
+	at org.eclipse.buildship.core.util.progress.ToolingApiJob$1.run(ToolingApiJob.java:73)
+	at org.eclipse.buildship.core.util.progress.ToolingApiInvoker.invoke(ToolingApiInvoker.java:62)
+	at org.eclipse.buildship.core.util.progress.ToolingApiJob.run(ToolingApiJob.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.buildship.core 2 0 2017-07-05 20:39:03.873
+!MESSAGE Synchronize Gradle projects with workspace failed due to an unsupported configuration in the referenced Gradle build.
+!STACK 0
+org.eclipse.buildship.core.UnsupportedConfigurationException: Project at 'D:\Graciele\Handel' can't be named 'handel' because it's located directly under the workspace root. If such a project is renamed, Eclipse would move the container directory. To resolve this problem, move the project out of the workspace root or configure it to have the name 'Handel'.
+	at org.eclipse.buildship.core.workspace.internal.DefaultWorkspaceOperations.validateProjectName(DefaultWorkspaceOperations.java:183)
+	at org.eclipse.buildship.core.workspace.internal.ProjectNameUpdater.checkProjectName(ProjectNameUpdater.java:107)
+	at org.eclipse.buildship.core.workspace.internal.ProjectNameUpdater.ensureProjectNameIsFree(ProjectNameUpdater.java:71)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.addExistingEclipseProjectToWorkspace(SynchronizeGradleBuildOperation.java:266)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.synchronizeNonWorkspaceProject(SynchronizeGradleBuildOperation.java:256)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.synchronizeGradleProjectWithWorkspaceProject(SynchronizeGradleBuildOperation.java:175)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.access$000(SynchronizeGradleBuildOperation.java:99)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation$1.run(SynchronizeGradleBuildOperation.java:134)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.synchronizeProjectsWithWorkspace(SynchronizeGradleBuildOperation.java:131)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildOperation.run(SynchronizeGradleBuildOperation.java:115)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildsJob.synchronizeBuild(SynchronizeGradleBuildsJob.java:81)
+	at org.eclipse.buildship.core.workspace.internal.SynchronizeGradleBuildsJob.runToolingApiJob(SynchronizeGradleBuildsJob.java:72)
+	at org.eclipse.buildship.core.util.progress.ToolingApiJob$1.run(ToolingApiJob.java:73)
+	at org.eclipse.buildship.core.util.progress.ToolingApiInvoker.invoke(ToolingApiInvoker.java:62)
+	at org.eclipse.buildship.core.util.progress.ToolingApiJob.run(ToolingApiJob.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
